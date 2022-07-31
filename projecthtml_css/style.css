@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.6rem;
+}
+li,button,label,input,p{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2.3rem;
+}
+h4,h5{
+    font-size: 2.8rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/*Nav section with Hero*/
+
+.main-head{
+    background-color: rgb(102, 9, 9);
+    color:white;
+    
+}
+nav{
+    
+    display: flex;
+    width:90%;
+    max-width: auto;
+    min-height: 10vh;
+    padding: 2rem;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex: 10 1 40rem;    
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#logo{
+    flex:1 1 40rem;
+}
+.hero{
+    background: url(./img/pexels-flo-dahm-699466.jpg);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

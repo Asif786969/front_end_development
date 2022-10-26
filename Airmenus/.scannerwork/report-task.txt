@@ -1,0 +1,6 @@
+projectKey=react-sonar
+serverUrl=http://localhost:9000
+serverVersion=9.5.0.56709
+dashboardUrl=http://localhost:9000/dashboard?id=react-sonar
+ceTaskId=AYNb3YIlV9COMu7YVfFi
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYNb3YIlV9COMu7YVfFi

@@ -1,0 +1,7 @@
+h1{
+    font-family:'billabong';
+}
+@font-face {
+    font-family: 'billabong';
+    src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot");
+}

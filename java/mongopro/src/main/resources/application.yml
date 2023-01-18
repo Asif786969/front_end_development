@@ -1,6 +1,0 @@
-# spring:
-#   data:
-#     mongodb:
-#       uri : mongodb+srv://admin:admin@javamongo12.l1np3np.mongodb.net/?retryWrites=true&w=majority
-#       database : Booksdb
-

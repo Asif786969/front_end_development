@@ -31,7 +31,7 @@ public class Bookservice {
     public Book getBookById(String bookId){
         return repository.findById(bookId).get();
     }
-    public String deleteTask(String bookId){
+    public String deleteBook(String bookId){
         repository.deleteById(bookId);
         return "Book deleted";
         

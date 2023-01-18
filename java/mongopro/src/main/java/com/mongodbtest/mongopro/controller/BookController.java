@@ -36,4 +36,9 @@ public class BookController {
         service.addBook(book);
         return "Book Added";
     }
+    @PostMapping("/deletebook")
+    public String deleteParticularBook(@RequestBody String bookId){
+        service.deleteBook(bookId);
+        return "Book Deleted";
+    }
 }

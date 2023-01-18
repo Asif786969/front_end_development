@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#777;
+    padding:30px;
+}
+.header{
+    height: 95vh;
+    background-image:linear-gradient(to right bottom ,rgb(126, 213, 111,0.4),rgb(40, 180, 133,0.4)) ,url("/hero.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    clip-path:polygon(0 0,100% 0,100% 75%,0 100%);
+}
+.logo-box{
+    position:absolute;
+    
+}
+.text-box{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heading-primary{
+    color: #fff;
+    backface-visibility: hidden;/*used to hide backface visibility*/
+}
+.heading-primary-main{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    animation-name: moveinleft;
+    animation-duration: 1s;
+    /*animation-delay:2s*/
+    animation-iteration-count: 2;/*instead of 2 you can put infinite*/
+    animation-timing-function:ease-out;
+
+}
+.heading-primary-sub{
+    display: block; 
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    animation: moveinright 1s ease-out;
+
+
+}
+
+@keyframes moveinleft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+    
+}
+
+@keyframes moveinright {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

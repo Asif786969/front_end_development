@@ -1,3 +1,0 @@
-function validatingPassword(){
-    let firstpass=
-}
